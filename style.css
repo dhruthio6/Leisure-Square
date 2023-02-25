@@ -1,0 +1,275 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.background1 {
+  background-image: url(./images/banner-main.jpg);
+}
+.background2 {
+  background-image: url(./images/background\ 2.jpg);
+}
+.background3 {
+  background-image: url(./images/background\ 3.jpg);
+}
+.background4 {
+  background-image: url(./images/background\ 4.jpg);
+}
+.background5 {
+  background-image: url(./images/background\ 5.jpg);
+}
+.background6 {
+  background-image: url(./images/background\ 6.jpg);
+}
+.containers {
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.heading {
+  padding: 3%;
+  background-color: hsl(206, 100%, 96%, 0.7);
+  color: rgba(0, 0, 0);
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  height: 500px;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.reserv-form {
+  padding: 3%;
+  background-color: hsl(206, 100%, 96%, 0.7);
+  color: rgba(0, 0, 0);
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+  font-size: larger;
+}
+.contact-box {
+  background-color: hsl(140, 39%, 45%, 0.7);
+  padding: 2%;
+  border: 4px outset rgb(150, 149, 149);
+}
+
+.body1 {
+  padding: 40px;
+  display: flex;
+}
+
+.body1-heading {
+  padding: 40px;
+  font-size: larger;
+}
+
+.footer-bakground {
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+}
+
+.body1 {
+  background-color: rgb(235, 241, 247);
+}
+.body2 {
+  border-radius: 250px;
+}
+.best-sellers {
+  text-align: center;
+}
+
+h3 a {
+  opacity: 90%;
+
+  padding: 5px;
+
+  border: black solid 2px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: black;
+}
+
+.order-now {
+  text-align: center;
+  padding-bottom: 5px;
+}
+.order-now :hover {
+  background-color: hsl(140, 39%, 45%, 0.7);
+  color: black;
+}
+
+.seller-item,
+.contact-us {
+  display: inline-flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+.footer-service {
+  padding-top: 30px;
+}
+
+.site-footer {
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.site-footer hr {
+  border-top-color: black;
+  opacity: 0.5;
+}
+
+.site-footer hr.small {
+  margin: 20px 0;
+}
+
+.site-footer h6 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+
+.site-footer a {
+  color: black;
+}
+
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.footer-links.inline li {
+  display: inline-block;
+}
+
+.site-footer .social-icons {
+  text-align: right;
+}
+
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+
+.copyright-text {
+  margin: 0;
+}
+.copy-right {
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer {
+    text-align: center;
+  }
+}
+
+.contact-box {
+  padding: 1% auto 3% 3%;
+  margin: 3% 20% auto 20%;
+  border-radius: 1%;
+}
+.contact {
+  padding-top: 5%;
+}
+
+.contact-us {
+  border-radius: 35px;
+  margin: 20px;
+  display: inline-flex;
+}
+.card {
+  background-color: #33353d;
+  text-align: center;
+  padding-top: 50px;
+}
+.card-title {
+  padding: 10px;
+  text-justify: center;
+}
+
+.card-body a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.cards:hover {
+  background-color: rgba(0, 128, 0, 0.64);
+  transform: scale(1.2);
+}
+
+.review {
+  margin-top: 1px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  display: inline-flex;
+}
+.slide {
+  padding-top: 50px;
+}
+.review {
+  display: block;
+}
+.carousel-item {
+  padding: 25px 70px 25px 80px;
+}
+.story-body {
+  justify-content: center;
+  text-align: center;
+  background-color: aliceblue;
+  padding-top: 25px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 25px;
+}
+
+.story {
+  text-align: center;
+}
+
+.services > h2 {
+  padding: 5px;
+  text-align: center;
+}
+.best-sellers a {
+  color: green;
+}
